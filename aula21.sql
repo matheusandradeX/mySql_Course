@@ -1,0 +1,1 @@
+select  max (valor_pago_curso) as 'maior_valor', min(valor_pago_curso) as 'menor_valor' ,avg(valor_pago_curso) as 'media', sum (valor_pago_curso) as 'soma' from aluno;

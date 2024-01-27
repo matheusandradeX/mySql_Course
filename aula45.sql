@@ -1,0 +1,1 @@
+ select * from disciplina as d inner JOIN professor as p on (d.fk_idprofessor = p.idprofessor)
